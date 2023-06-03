@@ -16,8 +16,6 @@ Gather together the things that change for the same reason, separate those thing
 
 {% code title="Bad Approach" %}
 ```csharp
-public class BadApproach
-{
     public class PostService
     {
         private FileLogger logger = new FileLogger();
@@ -43,14 +41,13 @@ public class BadApproach
             return true;
         }
     }
-}
 ```
 {% endcode %}
 
 
 
-<pre class="language-csharp" data-title="Nice Approach"><code class="lang-csharp"><strong> public class PostService
-</strong>    {
+{% code title="Bad Approach" %}
+```csharp{
         private ILogger _logger;
 
         public PostService(ILogger logger)
@@ -84,4 +81,4 @@ public class BadApproach
         }
     
 }   
-</code></pre>
+{% endcode %}
