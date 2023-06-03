@@ -8,7 +8,7 @@ Can I extend this code and add more functionality without modify the original co
 
 {% code title="Bad Approach" %}
 ```csharp
-     public class Rectangle
+    public class Rectangle
     {
         public double Width { get; set; }
         public double Height { get; set; }
@@ -87,6 +87,6 @@ Can I extend this code and add more functionality without modify the original co
             return area;
         }
     }
-    ```
+```
 {% endcode %}
 

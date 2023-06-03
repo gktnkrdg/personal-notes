@@ -60,6 +60,6 @@ Base class or interface behavior should not go for modification (rework) as beca
     public class PaperPlane : Plane
     {
     }
-    ```
+```
 {% endcode %}
 

@@ -16,29 +16,16 @@ Gather together the things that change for the same reason, separate those thing
 
 {% code title="Bad Approach" %}
 ```csharp
-    public class PostService
+    public class EmailService
     {
-        private FileLogger logger = new FileLogger();
-
-        void CreatePost(string postMessage)
+        public void SendEmail(string email, string message)
         {
-            try
+            if (!email.Contains("@") || !email.Contains("."))
             {
-                // create post
+                throw new Exception("Email is not valid!!");
             }
-            catch (Exception ex)
-            {
-                logger.Log(ex.ToString());
-            }
-        }
-    }
 
-    public class FileLogger
-    {
-        public bool Log(string message)
-        {
-            //send log 
-            return true;
+            //client.Send(new MailMessage("test@email.com", email) { Subject = "Test!" });
         }
     }
 ```
@@ -47,38 +34,22 @@ Gather together the things that change for the same reason, separate those thing
 
 
 {% code title="Nice Approach" %}
-```csharp{
-        private ILogger _logger;
-
-        public PostService(ILogger logger)
+```csharp
+    public class EmailService
+    {
+        public void SendEmail(string email, string message)
         {
-            _logger = logger;
+            ValidateEmail(email);
+            //client.Send(new MailMessage("test@email.com", email) { Subject = "Test!" });
         }
-
-        public void CreatePost(string postMessage)
+        
+        public void ValidateEmail(string email)
         {
-            try
+            if (!email.Contains("@") || !email.Contains("."))
             {
-                //create post
-            }
-            catch (Exception ex)
-            {
-                _logger.Log(ex.ToString());
+                throw new Exception("Email is not valid!!");
             }
         }
-    }
-
-    public interface ILogger
-    {
-        bool Log(string message);
-    }
-
-    public class FileLogger : ILogger
-    {
-        public bool Log(string message)
-        {
-            return true;
-        }
-    
-}   
+    }   
+```   
 {% endcode %}
