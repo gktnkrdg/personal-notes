@@ -44,9 +44,13 @@ Others: Promiscuous Pairing Partial Pairing
 
 When your team consists of solo engineers, you end up with knowledge silos. Parts of the codebase are owned by specific individuals, and no one else knows how those modules work; in fact, other people on the team are afraid to make any changes. The owner becomes a bottleneck for the team, and new features can only be developed if that person is available. If that person becomes unavailable, the progress grinds to a halt
 
-### Article 
-- https://tuple.app/pair-programming-guide/the-case-for-pair-programming
-- https://martinfowler.com/articles/on-pair-programming.html#Styles
-- https://www.drovio.com/blog/the-different-styles-of-pair-programming/
-- https://stackify.com/pair-programming-styles/
-- https://codesubmit.io/blog/pair-programming/
+### Article
+
+[https://tuple.app/pair-programming-guide/the-case-for-pair-programming](https://tuple.app/pair-programming-guide/the-case-for-pair-programming)
+
+[https://martinfowler.com/articles/on-pair-programming.html](https://martinfowler.com/articles/on-pair-programming.html)
+
+https://www.drovio.com/blog/the-different-styles-of-pair-programming/
+
+* https://stackify.com/pair-programming-styles/
+* https://codesubmit.io/blog/pair-programming/
