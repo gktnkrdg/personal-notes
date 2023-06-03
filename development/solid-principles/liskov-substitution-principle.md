@@ -1,6 +1,5 @@
 # Liskov Substitution Principle
 
-###
 
 > Types can be replaced by their subtypes without breaking application
 
@@ -12,4 +11,55 @@ Enforced consistency so that the parent class or its child class can be used in 
 
 The overridden method shouldn’t remain empty\
 The overridden method shouldn’t throw an error\
-Base class or interface behavior should not go for modification (rework) as because of derived class behaviors.\\
+Base class or interface behavior should not go for modification (rework) as because of derived class behaviors.\
+
+
+{% code title="Bad Approach" %}
+```csharp
+    public class Plane
+    {
+        public virtual void StartEngine()
+        {
+        }
+    }
+
+    public class FighterJet : Plane
+    {
+    }
+
+    public class PaperPlane : Plane
+    {
+        public override void StartEngine()
+        {
+            throw new InvalidOperationException("A Paper Plane doesn't have an engine.");
+        }
+    }
+```
+{% endcode %}
+
+
+
+{% code title="Nice Approach" %}
+```csharp
+    public class Plane
+    {
+        public string Name { get; set; }
+    }
+
+    public class RealPlane
+    {
+        public void startEngine()
+        {
+        }
+    }
+
+    public class FighterJet : RealPlane
+    {
+    }
+
+    public class PaperPlane : Plane
+    {
+    }
+    ```
+{% endcode %}
+

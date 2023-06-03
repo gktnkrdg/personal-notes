@@ -46,7 +46,7 @@ Gather together the things that change for the same reason, separate those thing
 
 
 
-{% code title="Bad Approach" %}
+{% code title="Nice Approach" %}
 ```csharp{
         private ILogger _logger;
 
