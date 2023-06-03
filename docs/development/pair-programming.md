@@ -1,6 +1,6 @@
 # Pair Programming
 
-### What
+### What2
 
 Pair programming is the practice where two developers work together on the same coding problem, sharing terminals on the same computer.
 
