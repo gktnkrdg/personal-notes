@@ -87,5 +87,6 @@ Can I extend this code and add more functionality without modify the original co
             return area;
         }
     }
+    ```
 {% endcode %}
 
