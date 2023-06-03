@@ -11,4 +11,4 @@
   * [Liskov Substitution Principle](development/solid-principles/liskov-substitution-principle.md)
   * [Interface Segregation Principle](development/solid-principles/interface-segregation-principle.md)
   * [Dependency Inversible Principle](development/solid-principles/dependency-inversible-principle.md)
-* [Test](development/test.md)
+
