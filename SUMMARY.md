@@ -4,5 +4,5 @@
 
 ## Development
 
-* [Pair Programming](development/pair-programming.md)
-* [SOLID](development/solid.md)
+* [Pair Programming](docs/development/pair-programming.md)
+* [SOLID](docs/development/solid.md)
