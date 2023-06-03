@@ -12,7 +12,11 @@ Driver writes code, Navigator provides guidance and reviews. The driver focuses 
 
 The navigator can take anything from a reserved approach to a tactical hands-on role. The skill level of the driver should determine the navigator's involvement. In extreme cases, for example, the expert navigator may lead a novice driver through each step to build a feature.
 
-#### Ping-Pong Style:
+
+
+{% embed url="https://gist.github.com/gktnkrdg/e7933fa136d53391786e2483bc76bf18" %}
+
+#### Ping-Pong :
 
 It is a specific approach to pair programming that promotes a test-driven development (TDD) mindset and a focus on small, incremental steps.\
 Person 1 writes a failing test.\
