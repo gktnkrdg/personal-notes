@@ -1,6 +1,6 @@
 #  Welcome
 
-Personal notes on things I learned (mostly software development).
+Personal notes on things I learned (mostly software development) .
 
 # Table of contents
 
