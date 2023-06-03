@@ -50,7 +50,8 @@ When your team consists of solo engineers, you end up with knowledge silos. Part
 
 [https://martinfowler.com/articles/on-pair-programming.html](https://martinfowler.com/articles/on-pair-programming.html)
 
-https://www.drovio.com/blog/the-different-styles-of-pair-programming/
+[https://www.drovio.com/blog/the-different-styles-of-pair-programming](https://www.drovio.com/blog/the-different-styles-of-pair-programming)
 
-* https://stackify.com/pair-programming-styles/
-* https://codesubmit.io/blog/pair-programming/
+[https://stackify.com/pair-programming-styles](https://stackify.com/pair-programming-styles)
+
+[https://codesubmit.io/blog/pair-programming](https://codesubmit.io/blog/pair-programming)
