@@ -5,7 +5,7 @@
 ## Development
 
 * [Pair Programming](development/pair-programming.md)
-* [SOLID](development/solid-principles/README.md)
+* [SOLID-Principles](development/solid-principles/README.md)
   * [Single Responsibility Principle](development/solid-principles/single-responsibility-principle.md)
   * [Open Closed Principle](development/solid-principles/open-closed-principle.md)
   * [Liskov Substitution Principle](development/solid-principles/liskov-substitution-principle.md)
