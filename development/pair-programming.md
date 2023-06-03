@@ -10,13 +10,9 @@ Pair programming is the practice where two developers work together on the same 
 
 Driver writes code, Navigator provides guidance and reviews. The driver focuses on the implementation details, while the navigator focuses on reviewing, strategize, and providing feedback. In this approach, which many development teams prefer, one programmer handles the mechanical and tactical elements, and the other is in control of the strategic or architectural elements. This style works well for a novice paired with an expert programmer. In fact, it works best with that combination, where the novice is the driver and the expert acts as the navigator.
 
-The navigator can take anything from a reserved approach to a tactical hands-on role. The skill level of the driver should determine the navigator's involvement. In extreme cases, for example, the expert navigator may lead a novice driver through each step to build a feature.
+The navigator can take anything from a reserved approach to a tactical hands-on role. The skill level of the driver should determine the navigator's involvement. In extreme cases, for example, the expert navigator may lead a novice driver through each step to b
 
-
-
-{% embed url="https://gist.github.com/gktnkrdg/e7933fa136d53391786e2483bc76bf18" %}
-
-#### Ping-Pong :
+#### Ping-Pong Style :
 
 It is a specific approach to pair programming that promotes a test-driven development (TDD) mindset and a focus on small, incremental steps.\
 Person 1 writes a failing test.\
