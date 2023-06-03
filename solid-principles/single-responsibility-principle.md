@@ -1,6 +1,6 @@
 # Single Responsibility Principle
 
-> A class should only one reason to change
+> #### A class should only one reason to change
 
 If a class has many responsibility it increase the possibility of bug. Because making changes to one of its responsibility could affect the other ones without you know
 
@@ -10,9 +10,7 @@ Unit testing code suddenly becomes easier when a class is trying to only one do 
 
 Gather together the things that change for the same reason, separate those thing that change for different reason
 
-
-
-{% code title="Bad Approach" %}
+{% code title="Bad Approach" lineNumbers="true" %}
 ```csharp
     public class EmailService
     {
@@ -29,9 +27,7 @@ Gather together the things that change for the same reason, separate those thing
 ```
 {% endcode %}
 
-
-
-{% code title="Nice Approach" %}
+{% code title="Nice Approach" lineNumbers="true" %}
 ```csharp
     public class EmailService
     {
@@ -49,5 +45,5 @@ Gather together the things that change for the same reason, separate those thing
             }
         }
     }   
-```   
+```
 {% endcode %}

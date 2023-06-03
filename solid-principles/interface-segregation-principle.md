@@ -1,11 +1,10 @@
 # Interface Segregation Principle
 
-> Clients shouldn't be forced to depend on methods that they dont use\
+> #### Clients shouldn't be forced to depend on methods that they dont use\\
 
 Keep interfaces focused. Use multiple interfaces which does not force clients implement they dont used
 
 Use multiple interfaces that don't force clients to implement what they're not used
-
 
 {% code title="Bad Approach" %}
 ```csharp
@@ -53,8 +52,6 @@ Use multiple interfaces that don't force clients to implement what they're not u
     }
 ```
 {% endcode %}
-
-
 
 {% code title="Nice Approach" %}
 ```csharp

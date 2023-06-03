@@ -1,14 +1,16 @@
-# Dependency Inversion Principle
+# Dependency Inversible Principle
 
-> High level modules shouldn't depend on low level module. Both should depend on abstraction\*
+> #### High level modules shouldn't depend on low level module. Both should depend on abstraction\*
 
-> Abstractions shouldn't depend on details. Details should depend on abstractions\*
+> #### Abstractions shouldn't depend on details. Details should depend on abstractions\*
 
-We call repository but we are not interested in how that get Power socket plug doesn't care which type of wire it, just needs that to forward electricity.
+We call repository but we are not interested in how that gets power socket plug doesn't care which type of wire it, just needs that to forward electricity.
 
-Constructor injection Property injection -> (optional dependency) Method injection-> CalculateFee(Guid userId,IContext context)
+Constructor injection Property injection -> (optional dependency)&#x20;
 
-{% code title="Bad Approach" %}
+Method injection-> CalculateFee(Guid userId,IContext context)
+
+{% code title="Bad Approach" lineNumbers="true" %}
 ```csharp
     public class PostService
     {
@@ -38,9 +40,7 @@ Constructor injection Property injection -> (optional dependency) Method injecti
 ```
 {% endcode %}
 
-
-
-{% code title="Nice Approach" %}
+{% code title="Nice Approach" lineNumbers="true" %}
 ```csharp
     public class PostService
     {

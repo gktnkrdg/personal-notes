@@ -1,12 +1,12 @@
 # Open Closed Principle
 
-> You should be able to extend a classes behavior, without modifying it
+> #### You should be able to extend a classes behavior, without modifying it
 
-> Software entities(classes, modules,functions) should be open for extension, but changed for modification\*
+> #### Software entities(classes, modules,functions) should be open for extension, but changed for modification\*
 
 Can I extend this code and add more functionality without modify the original code in any way.
 
-{% code title="Bad Approach" %}
+{% code title="Bad Approach" lineNumbers="true" %}
 ```csharp
     public class Rectangle
     {
@@ -44,9 +44,7 @@ Can I extend this code and add more functionality without modify the original co
 ```
 {% endcode %}
 
-
-
-{% code title="Nice Approach" %}
+{% code title="Nice Approach" lineNumbers="true" %}
 ```csharp
     public abstract class Shape
     {
@@ -89,4 +87,3 @@ Can I extend this code and add more functionality without modify the original co
     }
 ```
 {% endcode %}
-
