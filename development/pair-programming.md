@@ -6,7 +6,7 @@
 
 #### Driver/Navigator:
 
-Driver writes code, Navigator provides guidance and reviews. The driver focuses on the implementation details, while the navigator focuses on reviewing, strategize, and providing feedback. In this approach, which many development teams prefer, one programmer handles the mechanical and tactical elements, and the other is in control of the strategic or architectural elements. This style works well for a novice paired with an expert programmer. In fact, it works best with that combination, where the novice is the driver and the expert acts as the navigator.
+Driver writes code, Navigator provides guidance and reviews. The driver focuses on the implementation details, while the navigator focuses on reviewing and providing feedback. In this approach, which many development teams prefer, one programmer handles the mechanical and tactical elements, and the other is in control of the strategic or architectural elements. This style works well for a novice paired with an expert programmer. In fact, it works best with that combination, where the novice is the driver and the expert acts as the navigator.
 
 The navigator can take anything from a reserved approach to a tactical hands-on role. The skill level of the driver should determine the navigator's involvement. In extreme cases, for example, the expert navigator may lead a novice driver through each step to b
 
@@ -20,7 +20,7 @@ Person 1 makes it pass
 
 #### Strong-Style:
 
-For an idea to go from your head into the computer, it must go through someone else's hands". In this style, the navigator is usually the person much more experienced with the setup or task at hand, while the driver is a novice (with the language, the tool, the codebase, ...). The experienced person mostly stays in the navigator role and guides the novice.\\
+For an idea to go from your head into the computer, it must go through someone else's hands". In this style, the navigator is usually the person much more experienced with the setup or task at hand, while the driver is a novice (with the language, the tool, the codebase, ...). The experienced person mostly stays in the navigator role and guides the novice.
 
 #### The Unstructured Pair Style:
 

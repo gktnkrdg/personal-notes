@@ -1,7 +1,5 @@
 # Single Responsibility Principle
 
-### Single Responsibility Principle (SRP)
-
 > A class should only one reason to change
 
 If a class has many responsibility it increase the possibility of bug. Because making changes to one of its responsibility could affect the other ones without you know

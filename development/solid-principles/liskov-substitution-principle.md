@@ -1,6 +1,5 @@
 # Liskov Substitution Principle
 
-
 > Types can be replaced by their subtypes without breaking application
 
 The child class should be able to everything the parent class can do if cannot perform the same actions as it parent class, this can cause bugs.
