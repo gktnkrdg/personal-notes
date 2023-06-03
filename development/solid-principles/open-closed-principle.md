@@ -6,4 +6,6 @@
 
 > Software entities(classes, modules,functions) should be open for extension, but changed for modification\*
 
-Can I extend this code and add more functionality without modify the original code in any way
+Can I extend this code and add more functionality without modify the original code in any way.
+
+Test
