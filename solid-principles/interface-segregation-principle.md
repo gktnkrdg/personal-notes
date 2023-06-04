@@ -6,7 +6,7 @@ Keep interfaces focused. Use multiple interfaces which does not force clients im
 
 Use multiple interfaces that don't force clients to implement what they're not used
 
-{% code title="Bad Approach" %}
+{% code title="Bad Approach" lineNumbers="true" %}
 ```csharp
     public interface IPersonalComputer
     {
@@ -53,7 +53,7 @@ Use multiple interfaces that don't force clients to implement what they're not u
 ```
 {% endcode %}
 
-{% code title="Nice Approach" %}
+{% code title="Nice Approach" lineNumbers="true" %}
 ```csharp
     public interface IPersonalComputer
     {
