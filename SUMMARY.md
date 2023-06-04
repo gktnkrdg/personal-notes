@@ -10,7 +10,5 @@
   * [Open Closed Principle](solid-principles/open-closed-principle.md)
   * [Liskov Substitution Principle](solid-principles/liskov-substitution-principle.md)
   * [Interface Segregation Principle](solid-principles/interface-segregation-principle.md)
-  * [Dependency Inversible Principle](solid-principles/dependency-inversible-principle.md)
-
+  * [Dependency Inversion Principle](solid-principles/dependency-inversible-principle.md)
 * [Book Notes](book-notes/readme.md)
-
