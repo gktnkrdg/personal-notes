@@ -2,7 +2,7 @@
 
 SOLID Principles are five principles of Object-Oriented class design. They are a set of rules and best practices to follow while designing a software structure.
 
-#### Read List
+### Read List
 
 [https://www.educative.io/blog/solid-principles-oop-c-sharp](https://www.educative.io/blog/solid-principles-oop-c-sharp)\
 [https://dev.to/trekhleb/s-o-l-i-d-principles-around-you-1o17](https://dev.to/trekhleb/s-o-l-i-d-principles-around-you-1o17)\
@@ -14,6 +14,6 @@ SOLID Principles are five principles of Object-Oriented class design. They are a
 [https://levelup.gitconnected.com/dependency-inversion-principle-in-c-a-comprehensive-guide-dfdda69d8292](https://levelup.gitconnected.com/dependency-inversion-principle-in-c-a-comprehensive-guide-dfdda69d82922)\
 [https://levelup.gitconnected.com/refactoring-c-code-with-solid-principles-a-case-study-9903406b9852](https://levelup.gitconnected.com/refactoring-c-code-with-solid-principles-a-case-study-9903406b9852)
 
-#### Slide
+### Slide
 
 [https://speakerdeck.com/tastapod/why-every-element-of-solid-is-wrong](https://speakerdeck.com/tastapod/why-every-element-of-solid-is-wrong)
