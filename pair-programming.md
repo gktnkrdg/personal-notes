@@ -34,7 +34,9 @@ The backseat navigator knows what he wants to do, but doesn’t always know how 
 
 This style of pairing is used for two developers with different skill sets, such as junior and senior developers. The lead is responsible for doing most of the coding and is usually paired with someone who needs guidance, has specific knowledge that can be used, or just wants to see more. The junior dev focuses on improving their skills by asking questions and learning from what’s happening around them.
 
-Others: Promiscuous Pairing Partial Pairing
+### Promiscuous Pair Programming
+
+Promiscuous Pair Programming involves pairing different team members with each other interchangeably. Rather than sticking to fixed pairs, team members rotate and work with different partners regularly(ex: 1:30 hour). This approach encourages cross-pollination of ideas, knowledge sharing, and promotes a shared understanding of the codebase across the team. Promiscuous Pair Programming fosters collaboration and avoids knowledge silos.
 
 ## Why
 
