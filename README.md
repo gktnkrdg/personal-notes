@@ -1,5 +1,7 @@
 # Home
 
+https://goktenkaradag.gitbook.io/personal-notes/
+
 Personal notes on things I learned (mostly software development) .
 
 * [x] [SOLID](solid-principles/)
