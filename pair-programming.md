@@ -26,7 +26,7 @@ For an idea to go from your head into the computer, it must go through someone e
 
 The unstructured style is more of a freestyle way to work on something together, like learning a new language or concept. The benefit of the unstructured style is the team building and creative solutions that can come from two people hacking away and figuring things out Both programmers collectively share the responsibility of understanding, implementing, and reviewing the code, making decisions, and addressing issues together. There are no predefined or formal roles such as driver or navigator. Both programmers actively collaborate and work together without distinct responsibilities.
 
-### Backset Navigator Style
+### Backseat Navigator Style
 
 The backseat navigator knows what he wants to do, but doesn’t always know how to get there. In practice, you may find yourself dealing with a backseat navigator in two ways: You both can write code, or you might be pairing with a developer who's looking over your shoulder and telling you what to type. If it's one-on-one pairing and you're a veteran programmer, a backseat navigator can actually help you solve problems.
 
