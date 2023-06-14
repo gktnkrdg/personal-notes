@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Home](README.md)
-
 * [Pair Programming](pair-programming.md)
 * [SOLID Principles](solid-principles/README.md)
   * [Single Responsibility Principle](solid-principles/single-responsibility-principle.md)
@@ -10,7 +9,10 @@
   * [Interface Segregation Principle](solid-principles/interface-segregation-principle.md)
   * [Dependency Inversion Principle](solid-principles/dependency-inversible-principle.md)
 * [Design Patterns](design-patterns/README.md)
-  * [Behavioral Patterns](design-patterns/behavioral-patterns)
-  * [Creational Patterns](design-patterns/creational-patterns)
-  * [Structural Patterns](design-patterns/structural-patterns)
+  * [Behavioral Patterns](design-patterns/behavioral-patterns/README.md)
+    * [Strategy](design-patterns/behavioral-patterns/strategy.md)
+  * [Creational Patterns](design-patterns/creational-patterns/README.md)
+    * [Builder](design-patterns/creational-patterns/builder.md)
+  * [Structural Patterns](design-patterns/structural-patterns/README.md)
+    * [Adapter](design-patterns/structural-patterns/adapter.md)
 * [Book Notes](book-notes/readme.md)
