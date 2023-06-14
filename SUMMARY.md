@@ -2,8 +2,6 @@
 
 * [Home](README.md)
 
-## Development
-
 * [Pair Programming](pair-programming.md)
 * [SOLID Principles](development/solid-principles/README.md)
   * [Single Responsibility Principle](solid-principles/single-responsibility-principle.md)
