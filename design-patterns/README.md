@@ -3,12 +3,12 @@
 |Creational Design Patterns|Structural Design Patterns|Behavioral Design Patterns|
 |:-|:-|:-|
 |[Singleton](creational-patterns/singleton.md)|[Adapter](structural-patterns/adapter.md)|[Chain of Responsibility](behavioral-patterns/adapter.md)|
-|[Factory Method](creational-patterns/factory-method)|[Bridge](structural-patterns/bridge)|[Command](behavioral-patterns/a/command)|
-|[Abstract Factory](creational-patterns/abstract-factory)|[Composite](structural-patterns/composite)|[Iterator](behavioral-patterns/iterator)|
-|[Builder](creational-patterns/builder)|[Decorator](structural-patterns/decorator)|[Mediator](behavioral-patterns/mediator)|
-|[Prototype](creational-patterns/prototype)|[Facade](structural-patterns/facade)|[Memento](behavioral-patterns/memento)|
-||[Flyweight](creational-patterns/flyweight)|[Observer](behavioral-patterns/observer)|
-||[Proxy](structural-patterns/proxy)|[Visitor](behavioral-patterns/visitor)|
-|||[Strategy](behavioral-patterns/strategy)|
-|||[State](behavioral-patterns/state)|
-|||[Template Method](behavioral-patterns/template-method)|
+|[Factory Method](creational-patterns/factory-method.md)|[Bridge](structural-patterns/bridge.md)|[Command](behavioral-patterns/command.md)|
+|[Abstract Factory](creational-patterns/abstract-factory.md)|[Composite](structural-patterns/composite.md)|[Iterator](behavioral-patterns/iterator.md)|
+|[Builder](creational-patterns/builder.md)|[Decorator](structural-patterns/decorator.md)|[Mediator](behavioral-patterns/mediator.md)|
+|[Prototype](creational-patterns/prototype.md)|[Facade](structural-patterns/facade.md)|[Memento](behavioral-patterns/memento.md)|
+||[Flyweight](creational-patterns/flyweight.md)|[Observer](behavioral-patterns/observer.md)|
+||[Proxy](structural-patterns/proxy.md)|[Visitor](behavioral-patterns/visitor.md)|
+|||[Strategy](behavioral-patterns/strategy.md)|
+|||[State](behavioral-patterns/state.md)|
+|||[Template Method](behavioral-patterns/template-method.md)|
